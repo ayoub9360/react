@@ -1,0 +1,10 @@
+.marketcontainer {
+  width: 100vw;
+  text-align: center;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+}
