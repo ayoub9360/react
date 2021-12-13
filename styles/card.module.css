@@ -16,6 +16,10 @@
   transform: scale(1.1);
 }
 
+.image {
+  object-fit: contain;
+}
+
 .button {
   background-color: rgb(23, 143, 23);
   border: none;

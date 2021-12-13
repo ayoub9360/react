@@ -10,7 +10,7 @@ export default function Product(props, { posts }) {
   return (
     <div className={styles.productContainer}>
       <p>{query.title}</p>
-      <Image width="100%" height="100%" src={query.image} alt="description"/>
+      <Image className={styles.image} width="100%" height="100%" src={query.image} alt="description"/>
       <p>{query.desc}</p>
       <p>{query.price}</p>
     </div>
